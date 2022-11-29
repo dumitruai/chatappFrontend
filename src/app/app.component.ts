@@ -12,6 +12,7 @@ export class AppComponent implements OnInit {
   username = '';
   message = '';
   messages = [];
+  now = Date.now();
 
   constructor(private http: HttpClient) {
   }
