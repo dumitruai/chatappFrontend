@@ -1,0 +1,51 @@
+.scrollarea {
+  min-height: 500px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.logo-chat h3{
+  font-family: 'Muli', sans-serif;
+  font-weight:100;
+  text-transform:uppercase;
+  font-size:40px;
+  color:#545454;
+  line-height:0.3;
+}
+
+.center-header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.fullscreen {
+  background-color: rgba(0, 89, 255, 0.15);
+  width: 100%;
+  height: 100%;
+}
+
+.inputMessage {
+  width: 100%;
+}
+
+.balon {
+
+	margin-top: 5px !important;
+	margin-bottom: 5px !important;
+
+	}
+
+
+.balon a {
+
+	background: #42a5f5;
+	color: #fff !important;
+	border-radius: 20px 20px 3px 20px;
+	display: block;
+	max-width: 75%;
+	padding: 7px 13px 7px 13px;
+
+	}
+
+
