@@ -12,7 +12,6 @@ export class AppComponent implements OnInit {
   username = '';
   message = '';
   messages = [];
-  now = Date.now();
 
   constructor(private http: HttpClient) {
   }
@@ -28,6 +27,10 @@ export class AppComponent implements OnInit {
     channel.bind('message', data => {
       this.messages.push(data);
     });
+  }
+
+  getTime(){
+    return Date.now();
   }
 
   submit(): void {

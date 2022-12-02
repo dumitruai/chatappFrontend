@@ -21,10 +21,9 @@
             <div *ngFor="let msg of messages">
               <div>
                 <strong>{{msg.username}}</strong>
-
               </div>
               <div><a>{{msg.message}}</a></div>
-              <p>{{this.now | date:'short':'GMT'}}</p>
+              <p>{{getTime() | date:'short':'GMT'}}</p>
             </div>
           </div>
         </mat-card-content>
